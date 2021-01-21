@@ -1,0 +1,23 @@
+h1 {
+  color: blue;
+}
+
+h3 {
+  color: blue;
+}
+
+button {
+ background-color: blueviolet; 
+  
+}  
+
+textarea{
+  width:250px;
+  height:70px;
+}
+
+label{
+  font-size: 15px;
+  color: blue;
+  border-color: blue;
+}

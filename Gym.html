@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="Scripts\Script-Gym.js"></script>
+  <script src="Scripts\Twitter.js"></script>
+  <link rel="stylesheet" href="Styles\Gym.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Gymnastics</title>
+</head>
+<body>
+
+	<div class="topnav" id="myTopnav">
+	
+		<a href=".\Gym.html" class="active">Gymnastics (Home)</a>
+		<a href=".\Twitter.html">Twitter</a>
+		<a href=".\Dino.html">Dino</a>
+		<a href=".\FallGame.html">Fall game</a>
+		<a href="javascript:void(0);" class="icon" onclick="navMenuFunction()">
+		  <i class="fa fa-bars"></i>
+		</a>
+	  </div>
+
+<h1>Which apparatus do you want to learn about?</h1>
+<p>Click to select an apparatus. </p>
+<p>Click picture to watch video. </p>
+
+<table>
+	<tr>
+			<td> 
+				<a href="https://www.youtube.com/watch?v=drvXbzZHV9I" target="_blank">
+				  <img src="Images\Gym\FL.jfif" alt="Floor Exercise"> 
+			    </a>
+			</td>
+			<td> 
+				<a href="https://www.youtube.com/watch?v=O2b03YtMeRU" target="_blank">
+				  <img src="Images\Gym\PB.jfif" alt="Parallel Bars"> 
+			    </a>
+			</td>
+			<td> 
+				<a href="https://www.youtube.com/watch?v=ObMd_d0LR1s" target="_blank">	
+				  <img src="Images\Gym\SR.jfif" alt="Still Rings">
+			    </a>
+			</td>	
+		</tr>
+                 <tr>
+			<td><button onClick="AlertFunction('FL')"> Details </button> </td>
+			<td><button onClick="AlertFunction('PB')"> Details </button> </td>
+			<td><button onClick="AlertFunction('SR')"> Details </button>  </td>
+		</tr> 
+		<tr>
+			<td> </td>
+			<td> </td>
+            <td> </td>
+		</tr>
+		<tr>
+			<td> 
+				<a href="https://www.youtube.com/watch?v=8IeBXhijY0M" target="_blank">
+				<img src="Images\Gym\HB.jfif" alt="High Bar">
+				</a>
+			</td>
+			<td> 
+				<a href="https://www.youtube.com/watch?v=KKADtH_zMQA" target="_blank">
+				<img src="Images\Gym\PH.jfif" alt="Pommle Hores">
+			    </a>
+			</td>
+            <td> 
+				<a href="https://www.youtube.com/watch?v=fPmakjc1Nsk" target="_blank">	
+				<img src="Images\Gym\VT.jfif" alt="Vault">
+				</a>
+			</td>
+		</tr>
+            <tr>
+			<td><button onClick="AlertFunction('HB')"> Details </button> </td>
+			<td><button onClick="AlertFunction('PH')"> Details </button> </td>
+			<td><button onClick="AlertFunction('VT')"> Details </button>  </td>
+		</tr>
+        <tr>
+			<td> </td>
+			<td> </td>
+            <td> </td>
+		</tr>
+	
+	</table>
+<br/>
+<br/>
+		
+</body>
+</html>
