@@ -1,3 +1,3 @@
 # MyWebsite
 1st website for practice
-public url: none
+public url: https://ninjagymnast235.github.io/gym/gym.html
